@@ -44,3 +44,22 @@ nav ul a span.badge {
 .side-nav span.badge {
   margin-top: calc(#{$sidenav-line-height / 2} - #{$badge-height / 2});
 }
+
+.fixed {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.v100 {
+    height: 100vh;
+}
+.v80 {
+    height: 80vh;
+}
+.v50 {
+    height: 50vh;
+}
+
+.v30 {
+    height: 30vh;
+}

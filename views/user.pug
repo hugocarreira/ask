@@ -1,0 +1,22 @@
+extends layout/layout
+
+block content
+    include nav
+
+    //- .section.v30.fixed.userbg
+    //-     .container
+    //-         .h1 Teste
+
+    .section
+        .main.container
+            .row
+                form(method='POST' action='ask').col-md-6.col-md-offset-3
+                    h2 teste                        
+                    .row
+                        .input-field.col.s12
+                            textarea.materialize-textarea#ask(placeholder="teste")
+                            label(for='ask')
+
+                
+
+

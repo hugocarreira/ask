@@ -1,3 +1,13 @@
 block script
     script(src='https://code.jquery.com/jquery-2.1.1.min.js')
     script(src='javascripts/materialize.min.js')
+
+    script.
+        new vUnit({
+            CSSMap: {
+                '.v': {
+                    property: 'height',
+                    reference: 'vh'
+                }
+            }
+        }).init();
